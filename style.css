@@ -1,0 +1,134 @@
+:root {
+    --cor-textos: #fff;
+    /*Cor para titulos e parágrafos*/
+    --cor-avisos: #c0c0c0;
+    /*Cor para as mensagens de aviso*/
+    --cor-botoes: #167bf7;
+    /*Cor para os botões*/
+    --cor-de-fundo: #00030c;
+    /*Cor para o fundo do site*/
+    --font-principal: 'inter';
+    /*fonte inter 400 700*/
+}
+
+.cabecalho {
+    background-color: var(--cor-textos);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 2.2rem;
+}
+
+.cabecalho__menu__logo {
+    width: 270px;
+    padding: 1% 45% 1% 1%;
+}
+
+.cabecalho__menu__link {
+    padding: 3.2% 0% 0% 0%;
+    color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-textos);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container__subprincipal {
+    margin: 4em 2em
+}
+
+
+.segundo__titulo {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor-textos);
+    margin: 0.2em 0.5em;
+}
+
+.segundo__texto {
+    color: var(--cor-avisos);
+    margin: 0 1em;
+}
+
+.container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--cor-botoes);
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--cor-textos);
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+    text-align: center;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--cor-textos);
+}
+
+.container__aviso {
+    font-size: 0.75em;
+    color: var(--cor-avisos);
+    margin: 0 15em;
+}
+
+.container__titulo {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.container__imagem {
+    margin: 0em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 4em 2em;
+}
+
+.secundario__imagem {
+    width: 90%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-textos);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cor-avisos);
+}
